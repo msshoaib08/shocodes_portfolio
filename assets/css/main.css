@@ -186,7 +186,7 @@ section {
 	flex-direction: row;
 }
 
-.header .logo {
+/* .header .logo {
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -194,7 +194,7 @@ section {
 
 .header .logo img {
 	width: 36px;
-}
+} */
 
 .header h2 {
 	color: var(--pure-white);
