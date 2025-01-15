@@ -3,7 +3,7 @@
 Welcome to my **Portfolio Template**! This is a fully responsive, modern portfolio website. Whether you're a developer, designer, or creative professional, this template can be customized to showcase your work, projects, skills, and experience in a clean, user-friendly way.
 
 ### Built With:
-- **HTML** (or Next.js, if applicable)
+- **HTML**
 - **CSS** for styling
 - **JavaScript**
 - **FontAwesome Icon**
