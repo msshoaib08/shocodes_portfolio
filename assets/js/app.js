@@ -15,4 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
 			header.classList.remove('header-scrolled');
 		}
 	});
+
+	// AOS Initialize
+
+	AOS.init();
 });

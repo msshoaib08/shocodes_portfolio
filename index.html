@@ -12,11 +12,20 @@
 			type="image/x-icon"
 		/>
 
-		<!-- Fontawesome CDN Link -->
+		<!-- Fontawesome CSS CDN Link -->
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- AOS CSS CDN Link -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+			integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
@@ -50,28 +59,33 @@
 		<!-- Hero Section -->
 		<section class="hero" id="hero">
 			<div class="container">
-				<div class="badge">
+				<div class="badge" data-aos="fade-up">
 					<div class="circle-icon"></div>
 					<h4>From Ideas to Interactive Magic</h4>
 				</div>
 
 				<div class="hero-content">
-					<h2>
+					<h2 data-aos="fade-up" data-aos-delay="200">
 						Transforming Visions into Seamless <span>User Experiences</span>
 					</h2>
-					<p>
+					<p data-aos="fade-up" data-aos-delay="300">
 						I&apos;m Mohammad Shoaib, a passionate web developer and UI/UX
 						designer with a strong focus on creating seamless, user-friendly
 						digital experiences.
 					</p>
 
-					<a href="#projects" class="primary-button">
+					<a
+						href="#projects"
+						class="primary-button"
+						data-aos="fade-up"
+						data-aos-delay="400"
+					>
 						<span>Show my work</span>
 						<i class="fa-solid fa-angles-right"></i>
 					</a>
 				</div>
 
-				<div class="hero-image">
+				<div class="hero-image" data-aos="zoom-in-up" data-aos-delay="500">
 					<h2>
 						Fueling success with collaboration and turning ideas into digital
 						magic through creativity and innovation.
@@ -84,7 +98,7 @@
 		<section class="stack" id="stack">
 			<div class="container">
 				<div class="section-header">
-					<div class="section-tag">
+					<div class="section-tag" data-aos="fade-up">
 						<img
 							src="/assets/images/star.png"
 							alt="star icon"
@@ -93,11 +107,11 @@
 						<span>Stack</span>
 					</div>
 
-					<h2 class="section-title">
+					<h2 class="section-title" data-aos="fade-up" data-aos-delay="200">
 						My Essential Tools for <span>Design</span> and
 						<span>Productivity</span>
 					</h2>
-					<p class="section-desc">
+					<p class="section-desc" data-aos="fade-up" data-aos-delay="300">
 						From design to project management, these tools are the backbone of
 						my workflow. They keep me organized, creative, and ready to
 						collaborate on every project.
@@ -105,7 +119,7 @@
 				</div>
 
 				<div class="stack-content">
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="300">
 						<img
 							src="/assets/images/icons/react.png"
 							alt="next js icon"
@@ -117,7 +131,7 @@
 						</div>
 					</div>
 
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="400">
 						<img
 							src="/assets/images/icons/nextjs.png"
 							alt="react js icon"
@@ -129,7 +143,7 @@
 						</div>
 					</div>
 
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="500">
 						<img
 							src="/assets/images/icons/nodejs.png"
 							alt="node js icon"
@@ -141,7 +155,7 @@
 						</div>
 					</div>
 
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="600">
 						<img
 							src="/assets/images/icons/javascript.png"
 							alt="javascript icon"
@@ -153,7 +167,7 @@
 						</div>
 					</div>
 
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="700">
 						<img
 							src="/assets/images/icons/typescript.png"
 							alt="react js icon"
@@ -165,7 +179,7 @@
 						</div>
 					</div>
 
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="800">
 						<img
 							src="/assets/images/icons/html.png"
 							alt="html icon"
@@ -177,7 +191,7 @@
 						</div>
 					</div>
 
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="900">
 						<img
 							src="/assets/images/icons/tailwind-css.png"
 							alt="html icon"
@@ -189,7 +203,7 @@
 						</div>
 					</div>
 
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="1000">
 						<img
 							src="/assets/images/icons/css.png"
 							alt="html icon"
@@ -201,7 +215,7 @@
 						</div>
 					</div>
 
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="1100">
 						<img
 							src="/assets/images/icons/mongo-db.png"
 							alt="html icon"
@@ -213,7 +227,7 @@
 						</div>
 					</div>
 
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="1200">
 						<img
 							src="/assets/images/icons/github.png"
 							alt="html icon"
@@ -225,7 +239,7 @@
 						</div>
 					</div>
 
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="1300">
 						<img
 							src="/assets/images/icons/figma.png"
 							alt="html icon"
@@ -237,7 +251,7 @@
 						</div>
 					</div>
 
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-up" data-aos-delay="1400">
 						<img
 							src="/assets/images/icons/vscode.png"
 							alt="html icon"
@@ -256,7 +270,7 @@
 		<section class="projects" id="projects">
 			<div class="container">
 				<div class="section-header">
-					<div class="section-tag">
+					<div class="section-tag" data-aos="fade-up">
 						<img
 							src="/assets/images/star.png"
 							alt="star icon"
@@ -265,10 +279,10 @@
 						<span>Work That Speaks</span>
 					</div>
 
-					<h2 class="section-title">
+					<h2 class="section-title" data-aos="fade-up" data-aos-delay="200">
 						Spotlight on <span>recent projects</span>
 					</h2>
-					<p class="section-desc">
+					<p class="section-desc" data-aos="fade-up" data-aos-delay="300">
 						A collection of innovative projects that bring my concepts to
 						reality. These works highlight my creativity, problem-solving
 						abilities, and the impact I strive to make through each endeavor.
@@ -276,7 +290,7 @@
 				</div>
 
 				<div class="projects-content">
-					<div class="project">
+					<div class="project" data-aos="zoom-in" data-aos-delay="300">
 						<img
 							src="/assets/images/project1.png"
 							alt="project 1"
@@ -300,7 +314,7 @@
 						</div>
 					</div>
 
-					<div class="project">
+					<div class="project" data-aos="zoom-in" data-aos-delay="400">
 						<img
 							src="/assets/images/project2.png"
 							alt="project 2"
@@ -326,7 +340,7 @@
 						</div>
 					</div>
 
-					<div class="project">
+					<div class="project" data-aos="zoom-in" data-aos-delay="500">
 						<img
 							src="/assets/images/project3.png"
 							alt="project 3"
@@ -349,7 +363,7 @@
 						</div>
 					</div>
 
-					<div class="project">
+					<div class="project" data-aos="zoom-in" data-aos-delay="500">
 						<img
 							src="/assets/images/project4.png"
 							alt="project 4"
@@ -376,7 +390,7 @@
 		<!-- Work Experience Section -->
 		<section class="experience" id="experience">
 			<div class="container">
-				<div class="section-header">
+				<div class="section-header" data-aos="fade-up">
 					<div class="section-tag">
 						<img
 							src="/assets/images/star.png"
@@ -386,17 +400,17 @@
 						<span>Work Experience</span>
 					</div>
 
-					<h2 class="section-title">
+					<h2 class="section-title" data-aos="fade-up" data-aos-delay="200">
 						Journey through my <span>work experience</span>
 					</h2>
-					<p class="section-desc">
+					<p class="section-desc" data-aos="fade-up" data-aos-delay="300">
 						Key milestones and roles that have shaped my skills, challenges I've
 						overcome, and the impact I&apos;ve made along the way.
 					</p>
 				</div>
 
 				<div class="experience-content">
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-in" data-aos-delay="300">
 						<img
 							src="/assets/images/exp1.svg"
 							alt="laptop icon"
@@ -411,7 +425,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="minimal-card">
+					<div class="minimal-card" data-aos="zoom-in" data-aos-delay="400">
 						<img
 							src="/assets/images/exp2.svg"
 							alt="bulb icon"
@@ -433,7 +447,7 @@
 		<!-- Contact Section-->
 		<section id="contact" class="contact">
 			<div class="container">
-				<div class="section-tag">
+				<div class="section-tag" data-aos="fade-up">
 					<img
 						src="/assets/images/star.png"
 						alt="star icon"
@@ -443,17 +457,22 @@
 				</div>
 
 				<div class="section-header">
-					<h2 class="section-title">
+					<h2 class="section-title" data-aos="fade-up" data-aos-delay="200">
 						Let&apos;s chat over <span>coffee</span> and brew
 						<span>ideas</span> together!
 					</h2>
-					<p class="section-desc">
+					<p class="section-desc" data-aos="fade-up" data-aos-delay="300">
 						Ready to elevate your digital presence? Let&apos;s discuss your
 						goals over coffee — my treat! Connect today and let's craft
 						something extraordinary!!
 					</p>
 				</div>
-				<a href="mailto: ms.shoaib23@gmail.com" class="primary-button">
+				<a
+					href="mailto: ms.shoaib23@gmail.com"
+					class="primary-button"
+					data-aos="zoom-in-up"
+					data-aos-delay="400"
+				>
 					<span>Let's Grab a Coffee</span>
 					<i class="fa-solid fa-mug-hot"></i>
 				</a>
@@ -495,6 +514,14 @@
 				</div>
 			</div>
 		</footer>
+
+		<!-- AOS CDN Link -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+			integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
 
 		<!-- Javascript File -->
 		<script src="/assets/js/app.js"></script>
